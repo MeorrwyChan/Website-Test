@@ -1,50 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        body {
-            background-image: url('https://media3.giphy.com/media/qUIm5wu6LAAog/giphy.gif?cid=6c09b9520urba0z5uq7lim5rbdnrbi0hvmm3jvx9h3486qbq&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .textbox {
-            border-radius: 12px;
-            background-color: rgba(255, 255, 255, 0.5);
-            font-weight: bold;
-            text-align: center;
-            margin: 20px;
-            padding: 10px;
-            display: inline-block;
-        }
-        .buttons {
-            text-align: center;
-        }
-        .buttons button {
-            margin: 0 10px;
-        }
-    </style>
-    <script>
-        function clickYes() {
-            document.getElementById('textbox2').innerHTML = "Uwu? Come over and lemme get a piece of that ;)";
-        }
-        function clickNo() {
-            var responses = ["you sure?", "you double sure", "try again", "im not sure if youre sure", "you meant to click yes, try again"];
-            var response = responses[Math.floor(Math.random() * responses.length)];
-            document.getElementById('textbox2').innerHTML = response;
-        }
-    </script>
-</head>
 <body>
-    <div id="textbox1" class="textbox">Can I get a smooch please? :3</div>
-    <div class="buttons">
-        <button onclick="clickYes()">Yes</button>
-        <button onclick="clickNo()">No</button>
-    </div>
-    <div id="textbox2" class="textbox"></div>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
